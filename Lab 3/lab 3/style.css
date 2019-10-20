@@ -1,0 +1,32 @@
+h1{
+	color:red;
+}
+
+ul{
+	list-style-type:none;
+	overflow:hidden;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+}
+
+li{
+	float:left;
+}
+
+ul li a{
+	text-decoration:none;
+	color:#8b0000;
+	display:block;
+	padding: 14px 16px;
+
+}
+
+ul li a.active{
+	background-color:#8A0000;
+	color:white;
+}
+
+ul li a:hover:not(.active){
+	background-color:#5D0000;
+	color:white;
+}
